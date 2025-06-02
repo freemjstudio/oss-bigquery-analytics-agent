@@ -1,5 +1,5 @@
 from google.cloud import bigquery
-from ...core.config import settings
+from .configuration import settings
 
 class BigQueryResult:
     def __init__(self, success: bool, data=None, error:str=None):
